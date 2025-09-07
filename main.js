@@ -158,7 +158,9 @@
        
         //    loading section
        let loading = () =>{
-            plantsCards.innerHTML =`<span class="loading loading-dots loading-xs"></span>`
+            plantsCards.innerHTML =`<div class="flex justify-center col-span-3">
+                                        <span class="loading loading-dots loading-xs text-center"></span>
+                                    </div>`
        }
        
 
